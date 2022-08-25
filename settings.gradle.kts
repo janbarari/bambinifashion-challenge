@@ -13,3 +13,5 @@ pluginManagement {
 rootProject.name = "BambiniFashion"
 
 include(":app")
+include(":network")
+include(":datastore")

@@ -8,6 +8,7 @@ buildscript {
         classpath(libs.kotlin.gradle.plugin)
         classpath(libs.hilt.plugin)
         classpath(libs.navigation.component.plugin)
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10")
     }
 }
 
