@@ -39,7 +39,6 @@ object NetworkModule {
     }
 
     @Provides
-    @Singleton
     fun provideRetrofit(
         @Named(BASE_URL) baseUrl: String,
         authenticationInterceptor: Interceptor
