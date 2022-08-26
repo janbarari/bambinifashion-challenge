@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/designers_navgraph"
+    app:startDestination="@id/designers_fragment">
+
+    <fragment
+        android:id="@+id/designers_fragment"
+        android:name="com.bambinifashion.designers.DesignersFragment"
+        android:label="Designers"
+        tools:layout="@layout/designers_fragment">
+
+    </fragment>
+
+</navigation>

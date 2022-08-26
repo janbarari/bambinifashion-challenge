@@ -45,4 +45,12 @@ dependencies {
 
     implementation(libs.hilt.android)
     kapt(libs.hilt.kapt)
+
+    implementation(projects.designsystem)
+    implementation(projects.datastore)
+    implementation(projects.home)
+    implementation(projects.menu)
+    implementation(projects.bag)
+    implementation(projects.search)
+    implementation(projects.designers)
 }

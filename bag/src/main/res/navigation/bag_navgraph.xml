@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bag_navgraph"
+    app:startDestination="@id/bag_fragment">
+
+    <fragment
+        android:id="@+id/bag_fragment"
+        android:name="com.bambinifashion.bag.BagFragment"
+        android:label="Bag"
+        tools:layout="@layout/bag_fragment">
+
+    </fragment>
+
+</navigation>

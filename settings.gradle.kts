@@ -13,5 +13,15 @@ pluginManagement {
 rootProject.name = "BambiniFashion"
 
 include(":app")
+
+include(":home")
+include(":designers")
+include(":bag")
+include(":search")
+include(":menu")
+
+include(":database")
 include(":network")
 include(":datastore")
+include(":architecture")
+include(":designsystem")

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/menu_navgraph"
+        android:icon="@drawable/ic_bambini"
+        android:title="@string/menu"/>
+
+    <item
+        android:id="@id/home_navgraph"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@id/bag_navgraph"
+        android:icon="@drawable/ic_bag"
+        android:title="@string/bag"/>
+
+    <item
+        android:id="@id/search_navgraph"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"/>
+
+    <item
+        android:id="@id/designers_navgraph"
+        android:icon="@drawable/ic_star"
+        android:title="@string/designers"/>
+</menu>

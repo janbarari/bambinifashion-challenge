@@ -18,14 +18,19 @@ navigation-component = "2.5.1"
 androidx-fragment-ktx = "1.5.2"
 room = "2.4.3"
 google-material = "1.6.1"
+okhttp-interceptor = "4.10.0"
 
 [libraries]
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-version" }
 android-gradle-plugin = { module = "com.android.tools.build:gradle", version.ref = "android-gradle-plugin" }
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin-version" }
 
+okhttp-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp-interceptor" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 moshi-converter = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
+
+moshi-kotlin = "com.squareup.moshi:moshi-kotlin:1.13.0"
+moshi-codegen = "com.squareup.moshi:moshi-kotlin-codegen:1.13.0"
 
 androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
@@ -56,7 +61,7 @@ navigation-component-runtime = { module = "androidx.navigation:navigation-runtim
 navigation-component-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation-component" }
 navigation-component-ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation-component" }
 
-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-runtime = { module = "androidx.room:room-ktx", version.ref = "room" }
 room-kapt = { module = "androidx.room:room-compiler", version.ref = "room" }
 data-store = "androidx.datastore:datastore-preferences:1.0.0-beta01"
 
@@ -80,6 +85,7 @@ android-components = [
 network = [
     "retrofit",
     "moshi-converter",
+    "okhttp-interceptor",
     "picasso",
     "data-store"
 ]

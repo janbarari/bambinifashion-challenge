@@ -6,8 +6,8 @@ plugins {
 
 dependencies {
     api(libs.retrofit)
-    implementation(libs.moshi.converter)
-    implementation(libs.data.store)
+    api(libs.moshi.converter)
+    implementation(libs.okhttp.interceptor)
 
     implementation(libs.hilt.android)
     kapt(libs.hilt.kapt)

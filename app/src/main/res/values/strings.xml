@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BambiniFashion</string>
+
+    <string name="menu">Menu</string>
+    <string name="home">Home</string>
+    <string name="bag">Bag</string>
+    <string name="search">Search</string>
+    <string name="designers">Designers</string>
 </resources>
