@@ -1,5 +1,5 @@
 # BambiniFashion
-This app is the code challenge of [BambiniFashion](https://bambinifashion). It displays the home feed screen with caching and live promotion text.
+This app is the code challenge of [BambiniFashion](https://bambinifashion.com). It displays the home feed screen with caching and live promotion text.
 
 <img src="preview.gif" style="width:400px;"/>
 
